@@ -1,0 +1,4 @@
+<network>
+  <name>internal1</name>
+  <bridge name="virbr1" />
+</network>

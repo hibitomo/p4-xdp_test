@@ -1,0 +1,9 @@
+<interface type='network'>
+  <source network='internal1'/>
+  <model type='virtio'/>
+  <driver name='vhost' queues='8'>
+    <host gso='off' tso4='off' tso6='off' ecn='off' ufo='off'/>
+    <guest tso4='off' tso6='off' ecn='off' ufo='off'/>
+  </driver>  
+</interface>
+  
